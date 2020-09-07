@@ -1,4 +1,4 @@
-package problem1.java;
+package hw1;
 import java.util.Scanner; //Import the scanner 
 public class Problem3 {
 

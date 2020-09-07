@@ -1,4 +1,4 @@
-package problem1.java;
+package hw1;
 
 public class Problem2 {
 
