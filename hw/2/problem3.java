@@ -8,7 +8,7 @@ public class problem3 {
 	
 
 	//F is the force applied to push or pull an object in Newtons (N)
-    //u is a coefficient of friction (u is small for a smooth surface and large for a rough surface)
+        //u is a coefficient of friction (u is small for a smooth surface and large for a rough surface)
 	//m is the object’s mass in kilograms (kg)
 	//g is the acceleration due to gravity, which is a constant 9.8 m/s (meters per square second)
 	//a is the object’s acceleration in meters per square second (m/s)
