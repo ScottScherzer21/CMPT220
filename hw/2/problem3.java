@@ -15,7 +15,7 @@ public class problem3 {
 		
 		
 	//set constant varibles
-	double g = 9.8*9.8; //gravity 
+	double g = 9.8; //gravity 
 	
 	
 	//prompt to receive f (force)
