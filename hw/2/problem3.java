@@ -25,7 +25,7 @@ public class problem3 {
 	
 	//prompt to receive m (mass)
 	System.out.print("Enter the objects mass in kg: ");
-	Scanner m = new Scanner(System.in);
+	Scanner m = new Scanner(System.in); // JA: You don't need another scanner
 	double mass = m.nextDouble();
 		
 	//prompt to receive a (acceleration)
@@ -40,7 +40,7 @@ public class problem3 {
 	
 	//isolate u
 	double n = (mass * g) + (mass * accel);	
-	double u = friction/n;
+	double u = friction/n; // JA: Wrong equation
 	//divide by n on both sides 
 	
 	System.out.println("The coefficient for friction is: " + u);
