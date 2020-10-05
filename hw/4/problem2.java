@@ -1,26 +1,23 @@
 
-package module4;
+//package module4;
 import java.util.Scanner;
 public class problem2 {
   public static void main(String[] args) {
+    //take info from user
+    Scanner input = new Scanner(System.in);
+    System.out.print("Enter the radius of the bounding circle: (r) ");
+    double radius = input.nextDouble();
+    System.out.print("Enter sides of the polygon (n): ");
+    double side = input.nextDouble();
+    input.close();
 
-
-//take info from user
-Scanner input = new Scanner(System.in);
-System.out.print("Enter the radius of the bounding circle: (r) ");
-double radius = input.nextDouble();
-System.out.print("Enter sides of the polygon (n): ");
-double side = input.nextDouble();
-input.close();
-
-//start a loop for however many sides are picked 
-System.out.println("The coordinates of five points on the pentagon are...");
-for (int i = 0; i < side; i++) {
-
-double x = radius * Math.sin(2.0 * Math.PI / side * i);
-double y = radius * Math.cos(2.0 * Math.PI / side * i);
-System.out.println(x + " , " + y);
-}
+    //start a loop for however many sides are picked 
+    System.out.println("The coordinates of five points on the pentagon are...");
+    for (int i = 0; i < side; i++) {
+      double x = radius * Math.sin(2.0 * Math.PI / side * i);
+      double y = radius * Math.cos(2.0 * Math.PI / side * i);
+      System.out.println(x + " , " + y);
+    }
 
 /*
 should return...
