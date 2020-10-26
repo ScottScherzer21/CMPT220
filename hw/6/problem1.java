@@ -1,4 +1,4 @@
-package module6package;
+//package module6package;
 import java.util.*;
 public class problem1 {
 
@@ -11,10 +11,10 @@ public class problem1 {
         */
 
     
-        System.out.println("Enter 8 points in x y format separated by a space ");
+        System.out.println("Enter 6 points in x y format separated by a space ");
         Scanner input = new Scanner(System.in);
-        double[][] input_coordinates = new double[4][2];
-        double[][] area = new double[4][1];
+        double[][] input_coordinates = new double[6][2];
+        double[][] area = new double[6][1];
 
         for (int i = 0; i < input_coordinates.length; i++) {
             input_coordinates[i][0] = input.nextDouble();
@@ -26,6 +26,7 @@ public class problem1 {
             double x1 = input_coordinates[h][0];
             double y1 = input_coordinates[h][1];
 
+            // JA: This won't give you the area
             for (int i = 0; i < input_coordinates.length; i++) {
                 double x2 = input_coordinates[i][0];
                 double y2 = input_coordinates[i][1];

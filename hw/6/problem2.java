@@ -1,4 +1,4 @@
-package module6package;
+//package module6package;
 import java.util.*;
 public class problem2 {
 
