@@ -1,4 +1,4 @@
-package module7package;
+//package module7package;
 
 //for scanner
 import java.util.*;
