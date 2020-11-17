@@ -2,21 +2,12 @@ import java.util.*;
 
 public class problem3 {
 
-    //THIS FILE IS THE SAME AS PROBLEM 2 EXCEPT WITH A CUSTOM EXCEPTION
-
-    public static class BinaryFormatException extends NumberFormatException {
-        public BinaryFormatException() {
-        }
-
-        public BinaryFormatException(String s) {
-            super(s);
-        }
-    }
+    // THIS FILE IS THE SAME AS PROBLEM 2 EXCEPT WITH A CUSTOM EXCEPTION
 
     public static int bin2Dec(String binaryString) throws BinaryFormatException {
         int total = 0;
-        for(int i = 0; i < binaryString.length(); ++i) {
-            if(binaryString.charAt(i) != '0' && binaryString.charAt(i) != '1') {
+        for (int i = 0; i < binaryString.length(); ++i) {
+            if (binaryString.charAt(i) != '0' && binaryString.charAt(i) != '1') {
                 throw new BinaryFormatException(binaryString + "error. Not a binary character");
             }
             total += Math.pow(2, binaryString.length() - i - 1) * (binaryString.charAt(i) - '0');
@@ -36,4 +27,11 @@ public class problem3 {
     }
 }
 
+class BinaryFormatException extends NumberFormatException {
+    public BinaryFormatException() {
+    }
 
+    public BinaryFormatException(String s) {
+        super(s);
+    }
+}

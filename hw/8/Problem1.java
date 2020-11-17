@@ -1,4 +1,4 @@
-package module8package;
+//package module8package;
 
 import java.util.*;
 
@@ -41,6 +41,7 @@ public static ArrayList<String> split(String s, String delimiters){
             ++j;
         }
     }
+    vector.add(s.substring(i, j));
     return vector;
 }
 

@@ -1,4 +1,4 @@
-package module8package;
+//package module8package;
 import java.util.*;
 class problem2{ 
 
@@ -24,6 +24,7 @@ class problem2{
     } 
 
 // Main program 
+// The heavy objects go first
     public static void main(String[] args){ 
 
         System.out.println("Enter the number of objects: ");
