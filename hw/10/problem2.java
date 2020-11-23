@@ -23,7 +23,7 @@ public class problem2 {
     }
 }
 
-class Animal implements Cloneable, Comparable{
+class Animal implements Cloneable, Comparable<Animal>{
 
     double weight;
 
@@ -44,9 +44,9 @@ class Animal implements Cloneable, Comparable{
     }
 
     @Override
-    public int compareTo(Object o) {
+    public int compareTo(Animal o) {
         // TODO Auto-generated method stub
-        return 0;
+        return (int)(this.weight - o.getWeight());
     }
 }
 

@@ -52,10 +52,9 @@ public class problem1 {
     }
 }
 
-class Time implements Cloneable, Comparable{
-    public Time clone;
+class Time implements Cloneable, Comparable<Time>{
+    long time = System.currentTimeMillis() / 1000;
     static String hour_minute_second;
-    static long time;
     static int hour;
     static int minute;
     static int second;
@@ -74,6 +73,7 @@ class Time implements Cloneable, Comparable{
 
     // contructor for Time
     // invole this constructor by using (new Time)
+
     Time(String hour_minute_second) {
 
         // create a list, then populate the list with the input data
@@ -168,7 +168,7 @@ class Time implements Cloneable, Comparable{
     }
 
     @Override
-    public int compareTo(Object o) {
+    public int compareTo(Time o) {
         // TODO Auto-generated method stub
         return 0;
     }
