@@ -1,4 +1,5 @@
 public class Rational extends Number implements Comparable<Rational> {
+
   // Data fields for numerator and denominator
   public long numerator = 0;
   public long denominator = 1;

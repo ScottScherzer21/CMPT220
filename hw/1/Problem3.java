@@ -1,11 +1,8 @@
-package hw1;
-
 import java.util.Scanner; //Import the scanner 
 
 public class Problem3 {
 
   public static void main(String[] args) {
-    // TODO Auto-generated method stub
 
     int rows = 5;
 

@@ -1,5 +1,3 @@
-//package module8package;
-
 import java.util.*;
 
 class Flight {

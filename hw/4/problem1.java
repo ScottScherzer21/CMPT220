@@ -1,5 +1,3 @@
-//package module4;
-
 import java.util.Scanner;
 import java.util.Random;
 

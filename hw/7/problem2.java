@@ -1,6 +1,3 @@
-//package module7package;
-
-//for scanner
 import java.util.*;
 
 public class problem2 {

@@ -1,5 +1,3 @@
-
-//package module6package;
 import java.util.*;
 
 public class problem1 {

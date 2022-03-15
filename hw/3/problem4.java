@@ -1,5 +1,3 @@
-//package module3;
-
 import java.security.SecureRandom;
 import java.util.Scanner;
 

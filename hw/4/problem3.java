@@ -1,5 +1,3 @@
-//package module4;
-
 import java.util.Scanner;
 
 public class problem3 {

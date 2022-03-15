@@ -1,5 +1,3 @@
-//package module3;
-
 import java.util.*;
 import java.lang.*;
 import java.io.*;
