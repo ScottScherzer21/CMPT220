@@ -1,7 +1,7 @@
 # Software Development 1
-
-This repository contains coding projects I wrote during my undergrad at marist college. Note THIS CODE IS VERY ELEMANTARY. This is an archived repository and I have not altered any source code to maintain its inregrity for when it was written. This repositories only purpose is to be a sort of time capsule for me to look back and enjoy my struggles and triumpths as an early developer
 ---
+#### Archived !
+This repository contains coding projects I wrote during my undergrad at Marist college. Note THIS CODE IS VERY ELEMANTARY. This is an archived repository and I have not altered any source code to maintain its inregrity for when it was written. This repositories only purpose is to be a sort of time capsule for me to look back and enjoy my struggles and triumpths as an early developer
 
 #### Detail from syllabus
 Software development is programming a computer to do specific tasks, but it also involves documenting, testing, and fixing bugs. This course continues a disciplined approach to the craft of software development using Java. As a student, you will learn to design, develop, test, debug, and document a program with good coding style. This will help you to form a foundation for further studies in computer science.
