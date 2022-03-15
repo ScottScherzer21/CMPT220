@@ -2,6 +2,7 @@
 CMPT220L\
 Due on Nov 13, 2020 by 11:59 PM\
 Points: 100
+---
 
 ## 1. ArrayIndexOutOfBoundsException
 Write a program that meets the following requirements:

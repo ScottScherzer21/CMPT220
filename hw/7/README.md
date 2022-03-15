@@ -2,6 +2,7 @@
 CMPT220L\
 Due on Oct 30, 2020 by 11:59 PM\
 Points: 100
+---
 
 ## 1. Intersecting point
 Write the following method that returns the intersecting point between two lines

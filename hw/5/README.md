@@ -1,11 +1,10 @@
 # Module 5 - Methods
-> CMPT220L\
-> Due on Oct 15, 2020 by 11:59 PM\
-> Points: 100
+CMPT220L\
+Due on Oct 15, 2020 by 11:59 PM\
+Points: 100
 ---
 
 ## 1 Decimal to binary 
-> \
 > Write a method that parses a decimal number
 > into a binary number as a string. The method header is:
 >

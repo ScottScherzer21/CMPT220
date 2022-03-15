@@ -2,12 +2,12 @@
 CMPT220L\
 Due on Oct 2, 2020 by 11:59PM\
 Points: 100
+---
 
 > ## 1. Math tutor
 > Write a program that displays a menu as shown in the sample run  
 > You can enter 1, 2, 3, or 4 for choosing an addition,
 > subtraction, multiplication, or division test. 
-> 
 > After a test is ﬁnished, the menu is redisplayed.  
 > You may choose another test or enter
 > 5 to exit the system.  

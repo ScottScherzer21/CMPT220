@@ -1,13 +1,10 @@
 # Module 3 - Selections
-
-- CMPT220L
-- Due on Sep 25, 2020 by 11:59PM
-- Points: 100
-
+CMPT220L\
+Due on Sep 25, 2020 by 11:59PM\
+Points: 100\
 ---
 
 ## 1. Reduce fractions
-
 Write a program that prompts the user to enter the numerator and denominator of
 a fraction. The program determines whether the number is a proper fraction or an improper fraction.
 If it is a proper fraction, display the number. If not, reduce it to a mixed fraction or to an integer.

@@ -1,7 +1,7 @@
 # Module 2 - Elementary Programming
-- CMPT220L
-- Due on Sep 11, 2020 by 11:59PM
-- Points: 100
+CMPT220L
+Due on Sep 11, 2020 by 11:59PM
+Points: 100
 ---
 
 ## 1. Rectangle perimeter, area, and diagonal length 
